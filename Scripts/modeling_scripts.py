@@ -1,5 +1,7 @@
 import struct
 import numpy as np
+import matplotlib.pyplot as plt
+
 from itertools import product
 try:
     from .cwrapped import tessellate
